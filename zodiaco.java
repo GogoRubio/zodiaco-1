@@ -12,7 +12,7 @@ public class zodiaco {
 		// TODO Auto-generated method stub
 
 		String nombre,apellido;
-		int edad,noControl,dia,mes,año;
+		int edad,noControl,dia,mes,aÃ±o;
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		  Scanner sc = new Scanner(System.in);
@@ -37,8 +37,8 @@ public class zodiaco {
 		System.out.println("Ingrese mes");
 		mes = sc.nextInt(); 
 		
-		System.out.println("Ingrese año");
-		año = sc.nextInt(); 
+		System.out.println("Ingrese aÃ±o");
+		aÃ±o = sc.nextInt(); 
 
 
 		switch(mes) {		
@@ -105,13 +105,13 @@ public class zodiaco {
 		    else
 		      System.out.println("Virgo");
 		    break; 
-		case 10:
+		/*case 10:
 		    // Octubre
 		    if (dia>=23)
 		      System.out.println("Escorpion");
 		    else
 		      System.out.println("Libra");
-		    break;
+		    break;*/
 		case 11:
 		    // Noviembre
 		    if (dia>=22)

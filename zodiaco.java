@@ -105,13 +105,13 @@ public class zodiaco {
 		    else
 		      System.out.println("Virgo");
 		    break; 
-		/*case 10:
+		case 10:
 		    // Octubre
 		    if (dia>=23)
 		      System.out.println("Escorpion");
 		    else
 		      System.out.println("Libra");
-		    break;*/
+		    break;
 		case 11:
 		    // Noviembre
 		    if (dia>=22)
